@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration</title>
+    <style>
+        /* Basic styling for demonstration purposes */
+        form {
+          width: 400px;
+          margin: 0 auto;
+          font-family: Arial, sans-serif;
+        }
+        label, input, select, textarea {
+          display: block;
+          margin-bottom: 15px;
+        }
+        button {
+          padding: 10px 20px;
+          background-color: #FF5733;
+          color: #02386f;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        </style>
+</head>
+<body>
+    <ul>Workshop Registration</ul>
+    <form action="Admission Form"></form>
+    <label for="fullname">Full Name:</label>
+    <input type="text">
+    <label for="email">Email:</label>
+    <input type="email" >
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone">
+    <label for="workshop">Workshop Selection:</label>
+   <select id="workshop" name="workshop" >
+    <option value="">Select</option>
+    <option value="Photography Basics">Photography Basics</option>
+    <option value="Digital Marketing Strategies">Digital Marketing Strategies</option>
+    <option value="Creative Writing Workshop">Creative Writing Workshop</option>
+    <option value="Introduction to Robotics">Introduction to Robotics</option>
+  </select>
+  <label for="experience">Experience Level:</label>
+  <select id="experience" name="experience">
+    <option value="">Select</option>
+    <option value="Beginner">Beginner</option>
+    <option value="Intermediate">Intermediate</option>
+    <option value="Advanced">Advanced</option>
+  </select>
+  <label for="expectations">Expectations from the Workshop:</label>
+  <textarea id="expectations" name="expectations"></textarea>
+  <button type="submit">Register</button>
+</body>
+</html>
